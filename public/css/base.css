@@ -1,0 +1,36 @@
+:root {
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --bold: 600;
+    --extra-bold: 700;
+    font-family: 'Poppins', serif;
+}
+
+body {
+    line-height: 1.35 !important;
+    font-family: 'Poppins', serif;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.item-active {
+    opacity: 0.6!important;
+}
+
+.note-list-item {
+    font-weight: 500;
+    flex: 1 1 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.note-list-item:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    right: 0;
+    /*width: calc(100% - 114px)*/
+}
